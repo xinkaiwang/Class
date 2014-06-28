@@ -1,0 +1,22 @@
+{
+  "name": "Class",
+  "version": "0.0.0",
+  "description": "Implement CoffeeScript's Class System",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinkaiwang/Class.git"
+  },
+  "keywords": [
+    "class"
+  ],
+  "author": "xinkai wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinkaiwang/Class/issues"
+  },
+  "homepage": "https://github.com/xinkaiwang/Class"
+}
