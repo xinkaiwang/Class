@@ -17,7 +17,7 @@ function Class(funcs, parent) {
 
   // funcs
   for (name in funcs) {
-    if (funcs.hasOwnProperty(name)) {
+    if (funcs.hasOwnProperty(name) && name !== 'initialize') {
       klass.prototype[name] = funcs[name];
     }
   }
