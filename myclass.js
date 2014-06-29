@@ -1,8 +1,8 @@
 
 function Class(funcs, parent) {
   var constructor = function() {
-    if (funcs.constructor !== null && typeof funcs.constructor === 'function') {
-      funcs.constructor.apply(this, arguments);
+    if (funcs.initialize !== null && typeof funcs.initialize === 'function') {
+      funcs.initialize.apply(this, arguments);
     }
     else if (parent)
     {

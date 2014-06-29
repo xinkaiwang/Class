@@ -2,7 +2,7 @@
   "name": "Class",
   "version": "0.0.0",
   "description": "Implement CoffeeScript's Class System",
-  "main": "index.js",
+  "main": "myclass.js",
   "scripts": {
     "test": "npm mocha"
   },
